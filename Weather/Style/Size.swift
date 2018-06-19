@@ -12,4 +12,5 @@ enum Size{
     static let space: CGFloat = 8.0
     static let minSpace: CGFloat = Size.space / 2
     static let bigSpace: CGFloat = Size.space * 2
+    static let button: CGFloat = Size.space * 5
 }

@@ -9,10 +9,12 @@
 import UIKit
 
 enum Color{
-    static let bgColor = UIColor.white
-    static let theme1 = UIColor(hex: "610044")
-    static let theme2 = UIColor(hex: "9f0037")
-    static let theme3 = UIColor(hex: "db0024")
-    static let theme4 = UIColor(hex: "ff3900")
-    static let theme5 = UIColor(hex: "ffc500")
+    static let darkPrimary = UIColor(hex: "0288d1")
+    static let lightPrimary = UIColor(hex: "b3e5fc")
+    static let primary = UIColor(hex: "03a9f4")
+    static let white = UIColor(hex: "ffffff")
+    static let primaryText = UIColor(hex: "212121")
+    static let secondaryText = UIColor(hex: "757575")
+    static let lightText = UIColor(hex: "bdbdbd")
+    static let accentColor = UIColor(hex: "ff9800")
 }

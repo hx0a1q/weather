@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2A2BB420D97E05000A40D8 /* DayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A2BB320D97E05000A40D8 /* DayTableViewCell.swift */; };
+		1C2FAB0820CD768F00AD3990 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FAB0720CD768F00AD3990 /* UserDefaults.swift */; };
+		1C2FAB0B20CD778600AD3990 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FAB0A20CD778600AD3990 /* Defaults.swift */; };
+		1C2FAB0E20CD7A1200AD3990 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FAB0D20CD7A1100AD3990 /* DataManager.swift */; };
+		1C2FAB1020CD7AEC00AD3990 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2FAB0F20CD7AEC00AD3990 /* WeatherData.swift */; };
+		1C31664220D4751A004B45DD /* Stringable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31664120D4751A004B45DD /* Stringable.swift */; };
 		1C3B4D1220CC4E93000FF527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B4D1120CC4E93000FF527 /* AppDelegate.swift */; };
 		1C3B4D1420CC4E93000FF527 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B4D1320CC4E93000FF527 /* RootViewController.swift */; };
 		1C3B4D1720CC4E93000FF527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B4D1520CC4E93000FF527 /* Main.storyboard */; };
@@ -27,9 +33,16 @@
 		1C3B4D4920CC80BA000FF527 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3B4D4820CC80B9000FF527 /* SnapKit.framework */; };
 		1C47578320CC84950007DD7F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C47578220CC84950007DD7F /* Size.swift */; };
 		1C47578520CC86130007DD7F /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C47578420CC86130007DD7F /* SnapKit.swift */; };
+		1C6E987020CD109B00A70581 /* WeatherBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E986F20CD109B00A70581 /* WeatherBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C2A2BB320D97E05000A40D8 /* DayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTableViewCell.swift; sourceTree = "<group>"; };
+		1C2FAB0720CD768F00AD3990 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		1C2FAB0A20CD778600AD3990 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		1C2FAB0D20CD7A1100AD3990 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1C2FAB0F20CD7AEC00AD3990 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		1C31664120D4751A004B45DD /* Stringable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stringable.swift; sourceTree = "<group>"; };
 		1C3B4D0E20CC4E93000FF527 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3B4D1120CC4E93000FF527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C3B4D1320CC4E93000FF527 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +65,7 @@
 		1C3B4D4820CC80B9000FF527 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		1C47578220CC84950007DD7F /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		1C47578420CC86130007DD7F /* SnapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		1C6E986F20CD109B00A70581 /* WeatherBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C2A2BB220D97DF6000A40D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A2BB320D97E05000A40D8 /* DayTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1C2FAB0920CD777C00AD3990 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C2FAB0A20CD778600AD3990 /* Defaults.swift */,
+				1C2FAB0F20CD7AEC00AD3990 /* WeatherData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C2FAB0C20CD7A0600AD3990 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1C2FAB0D20CD7A1100AD3990 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
 		1C3B4D0520CC4E93000FF527 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +125,10 @@
 		1C3B4D1020CC4E93000FF527 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				1C2A2BB220D97DF6000A40D8 /* Cell */,
+				1C2FAB0C20CD7A0600AD3990 /* DataManager */,
+				1C2FAB0920CD777C00AD3990 /* Model */,
+				1C6E986E20CD102B00A70581 /* WeatherBase */,
 				1C3B4D3B20CC75BF000FF527 /* Extension */,
 				1C3B4D3820CC7583000FF527 /* Style */,
 				1C3B4D3520CC6516000FF527 /* Config */,
@@ -141,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				1C3B4D3020CC52E9000FF527 /* Controllers.swift */,
+				1C31664120D4751A004B45DD /* Stringable.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -175,6 +219,7 @@
 		1C3B4D3B20CC75BF000FF527 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1C2FAB0720CD768F00AD3990 /* UserDefaults.swift */,
 				1C3B4D3C20CC75C9000FF527 /* UIView.swift */,
 				1C3B4D4620CC7904000FF527 /* UIColor.swift */,
 				1C47578420CC86130007DD7F /* SnapKit.swift */,
@@ -188,6 +233,14 @@
 				1C3B4D4820CC80B9000FF527 /* SnapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C6E986E20CD102B00A70581 /* WeatherBase */ = {
+			isa = PBXGroup;
+			children = (
+				1C6E986F20CD109B00A70581 /* WeatherBaseViewController.swift */,
+			);
+			path = WeatherBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,17 +334,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C3B4D1420CC4E93000FF527 /* RootViewController.swift in Sources */,
+				1C2FAB0E20CD7A1200AD3990 /* DataManager.swift in Sources */,
 				1C47578320CC84950007DD7F /* Size.swift in Sources */,
 				1C47578520CC86130007DD7F /* SnapKit.swift in Sources */,
 				1C3B4D4720CC7904000FF527 /* UIColor.swift in Sources */,
+				1C2A2BB420D97E05000A40D8 /* DayTableViewCell.swift in Sources */,
 				1C3B4D2B20CC5181000FF527 /* DayViewController.swift in Sources */,
+				1C6E987020CD109B00A70581 /* WeatherBaseViewController.swift in Sources */,
 				1C3B4D3D20CC75C9000FF527 /* UIView.swift in Sources */,
 				1C3B4D1220CC4E93000FF527 /* AppDelegate.swift in Sources */,
 				1C3B4D3720CC6522000FF527 /* Configuration.swift in Sources */,
 				1C3B4D3F20CC75E7000FF527 /* StyleSheet.swift in Sources */,
+				1C2FAB0B20CD778600AD3990 /* Defaults.swift in Sources */,
 				1C3B4D2920CC5162000FF527 /* WeekViewController.swift in Sources */,
 				1C3B4D4120CC7641000FF527 /* Font.swift in Sources */,
+				1C31664220D4751A004B45DD /* Stringable.swift in Sources */,
+				1C2FAB0820CD768F00AD3990 /* UserDefaults.swift in Sources */,
 				1C3B4D3420CC57F6000FF527 /* Color.swift in Sources */,
+				1C2FAB1020CD7AEC00AD3990 /* WeatherData.swift in Sources */,
 				1C3B4D3120CC52E9000FF527 /* Controllers.swift in Sources */,
 				1C3B4D2420CC50E4000FF527 /* SettingViewController.swift in Sources */,
 				1C3B4D2E20CC5245000FF527 /* LocationsViewController.swift in Sources */,
